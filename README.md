@@ -6,6 +6,7 @@ Hackerrank-Missing stockprice data
 
 A time series of a stock's highest price during a trading day (at the New York Stock Exchange), is provided to you. In each test case, the day's highest prices is missing for certain days. By analyzing the data, try to identify the missing price for those particular days.
 
+
 ### Input Format
 The first line contains an integer N, which is the number of rows of data to follow.
 This is followed by N rows of data, each of which contains a time-stamp in the first column and the day's highest price for the stock in the second column. There is a tab delimiter between the two columns of data.
