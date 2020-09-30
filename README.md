@@ -3,6 +3,7 @@ Hackerrank-Missing stockprice data
 
 ### Missing Stock Prices
 * Link: https://www.hackerrank.com/challenges/missing-stock-prices
+
 <img src="https://user-images.githubusercontent.com/45054491/94738269-2b57e100-033d-11eb-8811-c3bb5e9a1aa6.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 
