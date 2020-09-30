@@ -14,7 +14,57 @@ There are exactly twenty rows in each input file, where the day's highest price 
 ### Output Format
 The output should contain exactly twenty rows, each containg your predicted value, for each of the missing values (Missing_1, Missing_2 ... Missing_20) in that order.
 
+#### Sample Input
+<pre>
+<code>
+250
+1/3/2012 16:00:00   Missing_1
+1/4/2012 16:00:00   27.47
+1/5/2012 16:00:00   27.728
+1/6/2012 16:00:00   28.19
+1/9/2012 16:00:00   28.1
+1/10/2012 16:00:00  28.15
+....
+....
+....
+12/13/2012 16:00:00 27.52
+12/14/2012 16:00:00 Missing_19
+12/17/2012 16:00:00 27.215
+12/18/2012 16:00:00 27.63
+12/19/2012 16:00:00 27.73
+12/20/2012 16:00:00 Missing_20
+12/21/2012 16:00:00 27.49
+12/24/2012 13:00:00 27.25
+12/26/2012 16:00:00 27.2
+12/27/2012 16:00:00 27.09
+12/28/2012 16:00:00 26.9
+12/31/2012 16:00:00 26.77
+</code>
+</pre>
 
+#### Sample Output
+```
+26.96
+31.98
+32.69
+32.41
+32.32
+30.5
+29.18
+30.8
+30.46
+30.63
+30.96
+30.4
+28.2
+28.2
+27.3
+27.1666
+27.58
+26.82
+27.13
+27.68
+```
 ### Scoring
 
 We will compute the mean of the magnitude of the percentage difference by comparing your expected answers with the actual stock price high, for each of the missing records (in all test cases - samples included).
