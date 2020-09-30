@@ -1,16 +1,3 @@
-import fileinput
-
-#####Extract the price value
-i = -1
-prices = []
-for line in fileinput.input():
-    if i == -1:
-        n = int(line)
-        i = i + 1
-    else:
-        prices.append(line)
-
-
 def calcMissing(readings):
     def isfloat(value):
         try:
@@ -31,4 +18,13 @@ def calcMissing(readings):
             print(sum(k) / len(k))
 
 
-calcMissing(prices)
+if __name__ == '__main__':
+    readings_count = int(input().strip())
+
+    readings = []
+
+    for _ in range(readings_count):
+        readings_item = input()
+        readings.append(readings_item)
+
+    calcMissing(readings)
