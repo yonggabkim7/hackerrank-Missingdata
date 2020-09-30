@@ -1,4 +1,4 @@
-Hackerrank-Missingdata
+Hackerrank-Missing stockprice data
 =============
 
 ### Missing Stock Prices
