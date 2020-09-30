@@ -1,20 +1,20 @@
-# hackerrank-Missingdata
+# Hackerrank-Missingdata
 
-Missing Stock Prices
+# Missing Stock Prices
 https://www.hackerrank.com/challenges/missing-stock-prices
 
 A time series of a stock's highest price during a trading day (at the New York Stock Exchange), is provided to you. In each test case, the day's highest prices is missing for certain days. By analyzing the data, try to identify the missing price for those particular days.
 
-Input Format
+# Input Format
 The first line contains an integer N, which is the number of rows of data to follow.
 This is followed by N rows of data, each of which contains a time-stamp in the first column and the day's highest price for the stock in the second column. There is a tab delimiter between the two columns of data.
 There are exactly twenty rows in each input file, where the day's highest price is missing. The missing prices are marked as "Missing_1", "Missing_2" .."Missing_20". These missing records have been randomly dispersed in the rows of data.
 
-Output Format
+# Output Format
 The output should contain exactly twenty rows, each containg your predicted value, for each of the missing values (Missing_1, Missing_2 ... Missing_20) in that order.
 
 
-Scoring
+# Scoring
 
 We will compute the mean of the magnitude of the percentage difference by comparing your expected answers with the actual stock price high, for each of the missing records (in all test cases - samples included).
 
